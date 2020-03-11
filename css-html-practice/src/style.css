@@ -1,0 +1,98 @@
+body{
+  border: 1.5rem solid #4A586E;
+  border-radius:1rem;
+  font-size:120%;
+  transition:border-color  1s, margin 1s
+  
+  
+}
+body:hover{
+  border-color:#1A2026;
+  margin:-.3rem;
+}
+.container{
+  padding:2% 10% 8%;
+  background:#BBC9DD;
+  align-items:center;
+}
+h1{
+  text-align:center;
+  margin-top:0em;
+  margin-bottom:1.5rem;
+  padding-top:0em;
+  font-size:3rem;
+  transition: color 1s, font-size 2s, margin-bottom 2s
+  }
+h1:hover{
+  color:#8C8C8C;
+  font-size:3.8rem;
+}
+section{
+  background-image: linear-gradient(to bottom right, #4A586E, #BBC9DD);
+  padding:5% 6.5%;
+  margin-top:0px;
+  border-radius:1rem 1rem 0rem 0rem;
+  transition: padding 2s, font-size 2s;
+}
+
+section:hover{
+  font-size:1.3rem;
+  padding: 5% 3%;
+}
+.article1{
+  background-image: linear-gradient(to bottom left, #BBC9DD, #4A586E);
+  padding:5% 6.5%;
+  margin-top:0px;
+  transition: font-size 2s, padding 2s, background-color 2s;
+}
+article{
+background-image: linear-gradient(to bottom right, #4A586E, #BBC9DD);
+  padding:5% 6.5%;
+  margin-top:0px;
+  transition: font-size 2s, padding 2s, background-color 2s;
+}
+p.spec, h2.spec{
+  transition:color 2s
+}
+
+article h2.spec:first-of-type:hover{
+  text-transform:capitalize;
+  color:#BBC9DD;
+}
+.article1 h2.spec:first-of-type:hover{
+  text-transform:uppercase;
+  color:#BBC9DD;
+}
+p.spec:hover{
+  color:#5BFF62;
+}
+article:hover{
+  font-size:1.4rem;
+  padding: 5% 3%;
+  background:#4A69FF;
+  
+}
+
+footer{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between; 
+}
+img.specL{
+border-radius:0rem 0rem 0rem 1rem;
+}
+img.specR{
+border-radius:0rem 0rem 1rem 0rem;
+}
+img{
+  transition:background 1.5s;
+  
+  
+}
+footer img:hover{
+  border-style:dotted dashed solid;
+  border-width:6px;
+  border-color:#4A586E;
+  background:orange;
+  opacity:70%
+}
